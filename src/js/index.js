@@ -21,13 +21,16 @@ charactersPlayer1.forEach((character) => {
             namePlayer1.style.left = '28%';
         }
         else if(idSelected === 'Sawamura') {
-            namePlayer1.style.left = '23%';
+            namePlayer1.style.left = '24%';
         }
         else if(idSelected === 'Sugawara') {
-            namePlayer1.style.left = '19.7%';
+            namePlayer1.style.left = '19.9%';
         }
         else if(idSelected === 'Tanaka') {
-            namePlayer1.style.left = '18%';
+            namePlayer1.style.left = '19%';
+        }
+        else if(idSelected === 'Kageyama') {
+            namePlayer1.style.left = '26%';
         }
         else {
             namePlayer1.style.left = '24.8%';
@@ -53,11 +56,14 @@ charactersPlayer2.forEach((character) => {
         const namePlayer2 = document.getElementById('character-name-2');
         const nameSelected = character.getAttribute('data-name');
 
-        if(idSelected === 'Hinata' || idSelected === 'Azumane' || idSelected === 'Tsukishima'){
-            namePlayer2.style.right = '25%';
+        if(idSelected === 'Hinata'){
+            namePlayer2.style.right = '26%';
+        }
+        else if(idSelected === 'Azumane' || idSelected === 'Tsukishima'){
+            namePlayer2.style.right = '23.5%';
         }
         else if(idSelected === 'Kageyama' || idSelected === 'Sawamura' || idSelected === 'Sugawara'){
-            namePlayer2.style.right = '20%';
+            namePlayer2.style.right = '19.5%';
         }
         else if(idSelected === 'Nishinoya'){
             namePlayer2.style.right = '29%';
