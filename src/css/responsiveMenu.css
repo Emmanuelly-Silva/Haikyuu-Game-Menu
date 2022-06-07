@@ -1,0 +1,94 @@
+@media (max-width:1280px) {
+    main {
+        min-height: 363.5px;
+        max-width: 1000px;
+    }
+
+    .haikyuu-logo {
+        margin-left: 13%;
+    }
+
+    .container .button-start {
+        margin-left: 140%;
+    }
+    
+    .characters-chibi .characters-left {
+        bottom: 1.5%;
+    }
+    
+    .characters-chibi .characters-right {
+        bottom: 2%;
+    }
+}
+
+@media (max-width:1024px) {
+    main {
+        min-height: 198.1px;
+    }
+
+    .haikyuu-logo {
+        margin-top: -4%;
+        margin-left: 12%;
+        max-width: 800px; 
+    }
+
+    .container .button-start {
+        margin-top: 50%;
+        margin-left: 21%;
+    }
+
+    .characters-left img, .characters-right img {
+        width: 130px;
+    }
+}
+
+@media (max-width:768px) {
+    .haikyuu-logo {
+        margin-top:5%;
+        margin-left: 4%;
+        max-width: 730px; 
+    }
+
+    .container .button-start {
+        margin-top: 80%;
+        margin-left: 7%;
+    }
+
+    .characters-left img, .characters-right img {
+        width: 110px;
+    }
+
+    .characters-chibi .characters-left {
+        bottom: 2%;
+        gap: 4px;
+    }
+    
+    .characters-chibi .characters-right {
+        bottom: 2%;
+        gap: 4px;
+    }
+}
+
+@media (max-width:360px) {
+    .haikyuu-logo {
+        display: none;
+    }
+
+    .container .button-start {
+        margin-top: 300px;
+        margin-left: 7%;
+    }
+    .characters-left img, .characters-right img {
+        width: 110px;
+    }
+
+    .characters-chibi .characters-left {
+        bottom: 2%;
+        gap: 4px;
+        left: 6px;
+    }
+    
+    .characters-chibi .characters-right {
+        display: none;
+    }
+}

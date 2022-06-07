@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./src/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./src/css/animations.css" />
+    <link rel="stylesheet" type="text/css" href="./src/css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="./src/css/responsiveMenu.css">
+</head>
+<body>
+    <header>
+        <audio loop>
+           <source src="./src/midia/soundOpening.mpeg" type="audio/mpeg" id="sound">  
+        </audio>
+
+        <img src="./src/Images/Logo-Haikyuu.png" alt="Logo de Haikyuu" class="haikyuu-logo">
+
+        <div class="link-github">
+           <a href="https://github.com/Emmanuelly-Silva" target="_blank">
+                <img src="./src/Images/github-svgrepo-com.svg" alt="GitHub">
+                <p id="name-github">Emmanuelly-Silva</p>
+            </a> 
+        </div>
+
+        <div class="play">
+            <button type="button" id="btnPlay" style="background-color: transparent;" value="disable">
+                <img src="./src/Images/botão-de-play.svg" alt="Botão de play" class="img-play">
+                <span id="sound-status">Off</span>
+            </button>
+        </div>
+        
+    </header>
+    <main>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="characterSelection.html" class="button-start">Play</a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+    <footer>
+        <div class="characters-chibi">
+            <div class="characters-left">
+                <img src="https://c.tenor.com/er709rxKZQ4AAAAi/tsundere-blush.gif" alt="Rosto do mini Ushijima" class="chibi-left">
+                <img src="https://c.tenor.com/_393i9ISDh0AAAAi/haikyuu-anime.gif" alt="Rosto do mini Hinata" class="chibi-left"> 
+                <img src="https://c.tenor.com/vgJUiHY2juQAAAAi/haikyuu-anime.gif" alt="Rosto do mini Bokuto" class="chibi-left">
+            </div> 
+            <div class="characters-right">
+                <img src="https://c.tenor.com/qTJsOhcqjrMAAAAi/haikyuu-anime.gif" alt="Rosto do mini Kageyama" class="chibi-right">
+                <img src="https://c.tenor.com/0bO_5DoqJJIAAAAi/haikyuu-anime.gif" alt="Rosto do mini Tsukishima" class="chibi-right">
+                <img src="https://c.tenor.com/YiQ80GxIjjMAAAAi/eyebrows-anime.gif" alt="Rosto do mini Akaashi" class="chibi-right">
+            </div>
+        </div>
+    </footer>
+    <script src="./src/js/soundOpening.js" type="text/javascript"></script>
+</body>
+</html>

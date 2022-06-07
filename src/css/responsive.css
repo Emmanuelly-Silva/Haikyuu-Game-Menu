@@ -1,0 +1,239 @@
+@media (max-width:1280px) {
+    h1.title{
+        font-size: 3.5rem;
+        line-height: 80px;
+    }
+    
+    .img-play {
+        width: 45px;
+        height: 45px;
+    }
+
+    .play #sound-status {
+        top: 45px;
+    }
+
+    .button-back {
+        width: 100px;
+        height: 55px;
+    }
+
+    .character-selection .character-list {
+        max-width: 350px;
+    }
+
+    .character-selection .character-list .character {
+        width: 105%;
+        height: 70px;
+    }
+
+    .character-selection .character-list.player-2 .character {
+        width: 102%;
+        height: 70px;  
+    }
+
+    .character-selection .character-large img {
+        top: 10%;
+        height: 560px;
+        left: 12%;
+    }
+    
+    .character-selection .character-large #character-player-1 {
+        left:27%;
+    }
+    
+    .character-selection h2#character-name-1 {
+        bottom: -0.5%;
+        font-size: 26px;
+    }
+    
+    .character-selection h2#character-name-2 {
+        bottom: -0.5%;
+        font-size: 26px;
+    }
+
+    .character-selection .versus {
+        height: 200px;
+        top: 38%;
+        left: 35.1%;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1.title{
+        font-size: 3rem;
+        line-height: 80px;
+        left: -2px;
+    }
+    
+    .character-selection .character-list .character {
+        width: 99%;
+        height: 65px;
+    }
+    
+    .character-selection .character-list.player-2 .character {
+        width: 99%;
+        height: 65px;  
+    }
+    
+    .character-selection .character-large img {
+        top: 6%;
+        height: 520px;
+        left: 12%;
+    }
+    
+    .character-selection .character-large #character-player-1 {
+        left:25%;
+    }
+    
+    .character-selection h2#character-name-1 {
+        bottom: 2%;
+    }
+    
+    .character-selection h2#character-name-2 {
+        left: 16%;
+        bottom: 2%;
+    }
+    
+    .character-selection .versus {
+        height: 150px;
+        top: 38%;
+        left: 38%;
+    }
+}
+
+@media (max-width: 768px) {
+    h1.title{
+        font-size: 2.3rem;
+        line-height: 80px;
+        left: 19px;
+    }
+
+    .character-selection .character-list {
+        max-width: 200px;
+    }
+
+    .character-selection .character-list .character {
+        width: 95%;
+        height: 50px;
+        margin-bottom: 15px;  
+    }
+    
+    .character-selection .character-list.player-2 .character {
+        width: 95%;
+        height: 50px;  
+        margin-bottom: 15px;
+    }
+
+    .character-selection .character-large img {
+        top: 15%;
+        height: 500px;
+        left: -6%;
+    }
+    
+    .character-selection .character-large #character-player-1 {
+        left:11%;
+    }
+    
+    .character-selection h2#character-name-1 {
+        bottom:15%;
+        font-size: 18px;
+    }
+
+    .character-selection h2#character-name-2 {
+        left: 2%;
+        bottom: 15%;
+        font-size: 18px;
+    }
+
+    .character-selection .versus {
+        height: 105px;
+        top: 40%;
+        left: 37%;
+    }
+}
+
+@media(max-width: 360px) {
+    main {
+        min-height: 80px;
+    }
+
+    h1.title {
+        font-size: 22px;
+        top: 25px;
+        left: 4px;
+        font-weight: bold;
+    }
+
+    .play {
+        right: 4px;
+    }
+
+    .img-play {
+        width: 30px;
+        height: 30px;
+    }
+
+    .play #sound-status {
+        top: 30px;
+        font-size: 11px;
+    }
+
+    header .button-back {
+        width: 60px;
+        height: 27px;
+        font-size: 14px;
+        left: 2px;
+        padding-top: 3px;
+    }
+
+    .character-selection .character-list {
+        top: 15%;
+    }
+
+    .character-selection .character-list.player-1 .character {
+        width: 65%;
+        height: 40px;
+        left: -15px;
+        margin-bottom: 22px;
+    }
+    
+    .character-selection .character-list.player-2 .character {
+        width: 65%;
+        height: 40px;  
+        right: -38px;
+        margin-bottom: 22px;
+    }
+
+    .character-selection .character-large img {
+        height: 215px;
+    }
+    
+    .character-selection .character-large #character-player-1 {
+        left: 93%;
+        top: 11%;
+    }
+
+    .character-selection .character-large #character-player-2 {
+        left: -74%;
+        top: 60%;
+    }
+
+    .character-selection h2#character-name-1 {
+        top:6%;
+        right: -147%;
+        font-size: 13px;
+    }
+
+    .character-selection h2#character-name-2 {
+        left: -147%;
+        bottom: 0.3%;
+        font-size: 13px;
+    }
+
+    .character-selection .versus {
+        height: 90px;
+        top: 46%;
+        left: 29%;
+    }
+}

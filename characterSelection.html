@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haikyuu Game</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/animations.css">
+    <link rel="stylesheet" href="./src/css/fonts.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <header>
+        <audio loop>
+            <source src="./src/midia/soundOpening.mpeg" type="audio/mpeg" id="sound">  
+         </audio>
+
+        <h1 class="title">Character Selection</h1>
+        <a href="index.html" class="button-back">BACK</a>
+
+        <div class="play">
+            <button type="button" id="btnPlay" style="background-color: transparent;" value="disable">
+                <img src="./src/Images/botão-de-play.svg" alt="Botão de play" class="img-play">
+                <span id="sound-status">Off</span>
+            </button>
+        </div>
+
+    </header>
+    <main>
+        <div class="character-selection">
+
+            <div class="character-large character-player-1">
+                <img src="./src/Images/Azumane.png" alt="Character selected player 1" id="character-player-1">
+                <div class="name">
+                    <h2 id="character-name-1">Azumane Asahi</h2>
+                </div>
+            </div>
+            
+            <ul class="character-list player-1">
+                <li class="character selected" id="azumane" data-name="Azumane Asahi">
+                    <span class="tag">P1</span>
+                    <img src="./src/Images/Azumane.jpg" alt="Personagem Azumane Asahi">
+                </li> 
+
+                <li class="character" id="hinata" data-name="Hinata Shoyo">
+                    <span class="tag">P1</span>
+                    <img src="./src/Images/Hinata.jpg" alt="Personagem Hinata Shoyo">
+                </li>
+
+                <li class="character" id="kageyama" data-name="Kageyama Tobio">
+                    <span class="tag">P1</span>
+                    <img src="./src/Images/Kageyama.jpg" alt="Personagem Kageyama Tobio">
+                </li>
+
+                <li class="character" id="nishinoya" data-name="Nishinoya Yu">
+                    <span class="tag">P1</span>
+                    <img src="./src/Images/Nishinoya.jpg" alt="Personagem Nishinoya Yu">
+                </li>
+
+                <li class="character" id="sawamura" data-name="Sawamura Daichi">
+                    <span class="tag">P1</span>
+                    <img src="./src/Images/Sawamura.jpg" alt="Personagem Sawamura Daichi">
+                </li>
+
+                <li class="character" id="sugawara" data-name="Sugawara Koushi">
+                    <span class="tag">P1</span>
+                    <img src="./src/Images/Sugawara.jpg" alt="Personagem Sugawara Koushi">
+                </li>
+
+                <li class="character" id="tsukishima" data-name="Tsukishima Kei">
+                    <span class="tag">P1</span>
+                    <img src="./src/Images/Tsukishima.jpg" alt="Personagem Tsukishima Kei">
+                </li>
+
+                <li class="character" id="tanaka" data-name="Tanaka Ryunosuke">
+                    <span class="tag">P1</span>
+                    <img src="./src/Images/Tanaka.jpg" alt="Personagem Tanaka Ryunosuke">
+                </li>
+            </ul>
+
+            <img src="./src/Images/Versus.png" alt="Logo de versus" class="versus">
+
+            <ul class="character-list player-2">
+                <li class="character " id="azumane" data-name="Azumane Asahi">
+                    <span class="tag">P2</span>
+                    <img src="./src/Images/Azumane.jpg" alt="Personagem Azumane Asahi">
+                </li> 
+
+                <li class="character" id="hinata" data-name="Hinata Shoyo">
+                    <span class="tag">P2</span>
+                    <img src="./src/Images/Hinata.jpg" alt="Personagem Hinata Shoyo">
+                </li>
+
+                <li class="character" id="kageyama" data-name="Kageyama Tobio">
+                    <span class="tag">P2</span>
+                    <img src="./src/Images/Kageyama.jpg" alt="Personagem Kageyama Tobio">
+                </li>
+
+                <li class="character" id="nishinoya" data-name="Nishinoya Yu">
+                    <span class="tag">P2</span>
+                    <img src="./src/Images/Nishinoya.jpg" alt="Personagem Nishinoya Yu">
+                </li>
+
+                <li class="character" id="sawamura" data-name="Sawamura Daichi">
+                    <span class="tag">P2</span>
+                    <img src="./src/Images/Sawamura.jpg" alt="Personagem Sawamura Daichi">
+                </li>
+
+                <li class="character" id="sugawara" data-name="Sugawara Koushi">
+                    <span class="tag">P2</span>
+                    <img src="./src/Images/Sugawara.jpg" alt="Personagem Sugawara Koushi">
+                </li>
+
+                <li class="character" id="tsukishima" data-name="Tsukishima Kei">
+                    <span class="tag">P2</span>
+                    <img src="./src/Images/Tsukishima.jpg" alt="Personagem Tsukishima Kei">
+                </li>
+
+                <li class="character selected-player-2" id="tanaka" data-name="Tanaka Ryunosuke">
+                    <span class="tag">P2</span>
+                    <img src="./src/Images/Tanaka.jpg" alt="Personagem Tanaka Ryunosuke">
+                </li>
+            </ul>
+
+            <div class="character-large character-player-2">
+                <img src="./src/Images/Tanaka.png" alt="Character selected player 2" id="character-player-2">
+                <div class="name">
+                    <h2 id="character-name-2">Tanaka Ryunosuke</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/soundOpening.js" type="text/javascript"></script>
+    <script src="./src/js/index.js" type="text/javascript"></script>
+</body>
+</html>
