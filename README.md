@@ -8,8 +8,6 @@ Esse projeto foi desenvolvido com base no conhecimento adquirido durante a **MAP
 <br><br>
 <a href="https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/ "><b><i>Clique aqui para testar o projeto</i></b></a>.
 <br><br>
-<a href="https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/ "><b><i>Clique aqui para testar o projeto</i></b></a>.
-<br><br>
 
 ## Layout do projeto:
 
