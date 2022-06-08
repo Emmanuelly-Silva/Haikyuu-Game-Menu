@@ -5,6 +5,8 @@
 ## Sobre o projeto:
 
 Esse projeto foi desenvolvido com base no conhecimento adquirido durante a **MAPADEV WEEK** realizada pelo canal <a href="https://www.youtube.com/c/DevemDobro">**DEV em Dobro**</a>.
+<br>
+O objetivo do projeto era criar um menu de seleção de personagens semelhante aos de jogos de video-games antigos.
 <br><br>
 <a href="https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/ "><b><i>Clique aqui para testar o projeto</i></b></a>.
 <br><br>
