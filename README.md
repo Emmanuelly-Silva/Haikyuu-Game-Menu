@@ -5,11 +5,12 @@
 ## Sobre o projeto:
 
 Esse projeto foi desenvolvido com base no conhecimento adquirido durante a **MAPADEV WEEK** realizada pelo canal <a href="https://www.youtube.com/c/DevemDobro">**DEV em Dobro**</a>.
-<br>
-O objetivo do projeto era criar um menu de seleção de personagens semelhante aos de jogos de video-games antigos.
+<br><br>
+<a href="https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/ "><b><i>Clique aqui para testar o projeto</i></b></a>.
 <br><br>
 
 ## Layout do projeto:
+
 O layout do projeto tem como tema o anime **Haikyuu**.
 <br><br>
 <img src="./src/Images/Haikyuu-Menu.png"/>
@@ -18,13 +19,16 @@ O layout do projeto tem como tema o anime **Haikyuu**.
 <br>
 
 ## Tecnologias utilizadas:
+
 * **HTML**
 * **CSS**
 * **JavaScript**
 
 ## Autora:
+
 ⚡ *Emmanuelly Lavínia da Silva*
 <img height="150" align="right" src="https://c.tenor.com/KOMN72qhJ-sAAAAC/haikyuu-hinata.gif"/>
+
 <!--O projeto provavelmente será atualizado com:
 * Novos personagens-->
 <!--<img height="50" src="https://cdn-icons.flaticon.com/png/512/719/premium/719176.png?token=exp=1654564013~hmac=71caad9adb5d3184279842cb92e369b9"/>-->
