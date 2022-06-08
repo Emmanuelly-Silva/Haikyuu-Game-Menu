@@ -57,19 +57,19 @@ charactersPlayer2.forEach((character) => {
         const nameSelected = character.getAttribute('data-name');
 
         if(idSelected === 'Hinata'){
-            namePlayer2.style.right = '26%';
+            namePlayer2.style.right = '24%';
         }
         else if(idSelected === 'Azumane' || idSelected === 'Tsukishima'){
-            namePlayer2.style.right = '23.5%';
+            namePlayer2.style.right = '22.7%';
         }
         else if(idSelected === 'Kageyama' || idSelected === 'Sawamura' || idSelected === 'Sugawara'){
-            namePlayer2.style.right = '19.5%';
+            namePlayer2.style.right = '18.5%';
         }
         else if(idSelected === 'Nishinoya'){
-            namePlayer2.style.right = '29%';
+            namePlayer2.style.right = '28%';
         }
         else {
-            namePlayer2.style.right = '16%';
+            namePlayer2.style.right = '16.5%';
         }
 
         namePlayer2.innerHTML = nameSelected;
