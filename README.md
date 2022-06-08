@@ -8,6 +8,8 @@ Esse projeto foi desenvolvido com base no conhecimento adquirido durante a **MAP
 <br>
 O objetivo do projeto era criar um menu de seleção de personagens semelhante aos de jogos de video-games antigos.
 <br><br>
+<a href="https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/ "><b><i>Clique aqui para testar o projeto</i></b></a>.
+<br><br>
 
 ## Layout do projeto:
 O layout do projeto tem como tema o anime **Haikyuu**.
