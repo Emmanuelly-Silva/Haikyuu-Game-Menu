@@ -20,16 +20,20 @@ O layout do projeto tem como tema o anime **Haikyuu**.
 <img src="./src/Images/Haikyuu-Character-Selection.png"/>
 <br>
 
-## Tecnologias utilizadas:
+## 🛠 Tecnologias:
 
-* **HTML**
-* **CSS**
-* **JavaScript**
+As seguintes tecnologias foram usadas no desenvolvimento do projeto:
+
+- [HTML]
+- [CSS]
+- [JavaScript]
+<br>
 
 ## Autora:
-
 ⚡ *Emmanuelly Lavínia da Silva*
 <img height="150" align="right" src="https://c.tenor.com/KOMN72qhJ-sAAAAC/haikyuu-hinata.gif"/>
+
+
 
 <!--O projeto provavelmente será atualizado com:
 * Novos personagens-->
