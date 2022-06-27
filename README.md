@@ -11,7 +11,7 @@ O objetivo do projeto era criar um menu de seleção de personagens semelhante a
 <!--<a href="https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/"><b><i>Clique aqui para testar o projeto</i></b></a>.-->
 #### Link para testar o projeto: https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/.
 <i>Durante o teste do projeto, é possível ativar e desativar a música de fundo.</i>
-<br>
+<br><br>
 
 ## Layout:
 
