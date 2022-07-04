@@ -2,18 +2,15 @@
 <h3 align="center">Menu de jogo com seleção de personagens do anime Haikyuu</h3>
 <br>
 
-## Sobre o projeto:
+## 💻 Sobre o projeto:
 
 Esse projeto foi desenvolvido com base no conhecimento adquirido durante a **MAPADEV WEEK** realizada pelo canal <a href="https://www.youtube.com/c/DevemDobro">**DEV em Dobro**</a>.
 <br>
 O objetivo do projeto era criar um menu de seleção de personagens semelhante aos de jogos de video-games.
 <br>
-<!--<a href="https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/"><b><i>Clique aqui para testar o projeto</i></b></a>.-->
-#### Link para testar o projeto: https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/.
-<i>Durante o teste do projeto, é possível ativar e desativar a música de fundo.</i>
-<br><br>
 
-## Layout:
+
+## 🖌️ Layout:
 
 O layout do projeto tem como tema o anime **Haikyuu**.
 <br><br>
@@ -26,12 +23,20 @@ O layout do projeto tem como tema o anime **Haikyuu**.
 
 As seguintes tecnologias foram usadas no desenvolvimento do projeto:
 
-- [HTML]
-- [CSS]
-- [JavaScript]
+<div>
+  <img align="center" alt="HTML" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Js" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div>
 <br>
 
-## Autora:
+## 💡 Como acessar o projeto:
+#### Para acessar basta clicar no link a seguir: https://emmanuelly-silva.github.io/Haikyuu-Game-Menu/.
+<i>Durante o teste do projeto, é possível ativar e desativar a música de fundo.</i>
+<br><br>
+
+
+## 📝 Autora:
 ⚡ *Emmanuelly Lavínia da Silva*
 <img height="150" align="right" src="https://c.tenor.com/KOMN72qhJ-sAAAAC/haikyuu-hinata.gif"/>
 
