@@ -24,24 +24,17 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
-/* header {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    z-index: 1; 
-} */
-
-/* h1.title {  
-    font-size: 2.7rem;
+.header-content .title {  
+    font-size: 2.8rem;
     text-shadow: 3px 0 3px white;
-    line-height: 60px;
-    position: relative;
-    left: 18px;
     font-weight: bold;
-} */
+    position: fixed;
+    right: 27%;
+    top: 10px;
+}
 
 .header-content .button-back {
     position: absolute;
@@ -51,10 +44,10 @@ main {
     font-size: 20px;
     background-color: rgb(0, 0, 0);
     color: white;
-    padding-top: 6px;
+    padding-top: 2px;
     display: block;
     text-align: center;
-    width: 90px;
+    width: 105px;
     height: 40px;
     border: 3px solid rgb(255, 255, 255);
     animation: c-glowing-red .5s ease-in-out infinite;
@@ -69,6 +62,13 @@ main {
     transition: 0.3s;
 }
 
+.additional-information {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-right: 20px;
+    /* gap: 55px; */
+}
 
 .link-github {
     display: flex;
@@ -76,8 +76,10 @@ main {
 }
 
 .link-github i {
-    color: white;
+    color: black;
     font-size: 40px;
+    position: fixed;
+    right: 6%;
 }
 
 .background-sound {
@@ -88,7 +90,7 @@ main {
 
 .sound-control i {
     color: black;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
 }
 
@@ -110,6 +112,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 15px;
 }
 
 .character-selection .character-large {
