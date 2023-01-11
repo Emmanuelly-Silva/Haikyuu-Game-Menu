@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haikyuu Game</title>
 
-    <link rel="shortcut icon" href="src/Images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="src/Images/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/animations.css">
@@ -14,23 +15,34 @@
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
-<body>
-    <header>
-        <audio loop>
-            <source src="./src/midia/soundOpening.mpeg" type="audio/mpeg" id="sound">  
-        </audio>
 
-        <h1 class="title">Character Selection</h1>
+<body>
+    <div class="header-content">
+
+
         <a href="index.html" class="button-back">BACK</a>
 
-        <div class="play">
-            <button type="button" id="btnPlay" style="background-color: transparent;" value="disable">
-                <img src="./src/Images/botão-de-play.svg" alt="Botão de play" class="img-play">
-                <span id="sound-status">Off</span>
-            </button>
-        </div>
+        <h1 class="title">Character Selection</h1>
 
-    </header>
+        <div class="additional-information">
+            <div class="link-github">
+                <a href="https://github.com/Emmanuelly-Silva" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="background-sound">
+                <audio loop>
+                    <source src="./src/midia/soundOpening.mpeg" type="audio/mpeg" id="sound">
+                </audio>
+                <div class="sound-control">
+                    <i class="fa-solid fa-volume-xmark sound-icon active" id="sound-off"></i>
+                    <i class="fa-solid fa-volume-high sound-icon" id="sound-on"></i>
+                </div>
+                <span id="sound-status">OFF</span>
+            </div>
+        </div>
+    </div>
+
     <main>
         <div class="character-selection">
 
@@ -40,12 +52,12 @@
                     <h2 id="character-name-1">Azumane Asahi</h2>
                 </div>
             </div>
-            
+
             <ul class="character-list player-1">
                 <li class="character selected" id="Azumane" data-name="Azumane Asahi">
                     <span class="tag">P1</span>
                     <img src="./src/Images/Azumane.jpg" alt="Personagem Azumane Asahi">
-                </li> 
+                </li>
 
                 <li class="character" id="Hinata" data-name="Hinata Shoyo">
                     <span class="tag">P1</span>
@@ -89,7 +101,7 @@
                 <li class="character " id="Azumane" data-name="Azumane Asahi">
                     <span class="tag">P2</span>
                     <img src="./src/Images/Azumane.jpg" alt="Personagem Azumane Asahi">
-                </li> 
+                </li>
 
                 <li class="character" id="Hinata" data-name="Hinata Shoyo">
                     <span class="tag">P2</span>
@@ -139,4 +151,5 @@
     <script src="./src/js/soundOpening.js" type="text/javascript"></script>
     <script src="./src/js/index.js" type="text/javascript"></script>
 </body>
+
 </html>
