@@ -20,22 +20,30 @@ main {
     justify-content: center;
 }
 
-header {
+.header-content {
     display: flex;
-    justify-content: center;
-    z-index: 1; 
+    flex-direction: row;
+    align-items: center;
 }
 
-h1.title {  
+/* header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1; 
+} */
+
+/* h1.title {  
     font-size: 2.7rem;
     text-shadow: 3px 0 3px white;
     line-height: 60px;
     position: relative;
     left: 18px;
     font-weight: bold;
-}
+} */
 
-header .button-back {
+.header-content .button-back {
     position: absolute;
     top: 0;
     left: 15px;
@@ -54,29 +62,48 @@ header .button-back {
     margin: 5px;
 }
 
-header .button-back:hover {
+.header-content .button-back:hover {
     animation: c-glowing-red .5s ease-in-out infinite;
     animation-direction: alternate;
     transform: scale(1.09);
     transition: 0.3s;
 }
 
-.play {
-    position: absolute;
-    top: 5px;
-    right: 26px;
+
+.link-github {
+    display: flex;
+    align-items: flex-start;
 }
 
-.img-play { 
-    width: 35px;
-    height: 35px;
+.link-github i {
+    color: white;
+    font-size: 40px;
 }
 
-.play #sound-status {
-    color: #000000;
-    position: absolute;
-    right: -1px;
-    top: 35px;
+.background-sound {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sound-control i {
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sound-control .sound-icon {
+    display: none;
+}
+
+.sound-control .sound-icon.active {
+    display: block;
+}
+
+#sound-status {
+    font-size: 16px;
+    padding: 3px;
+    font-weight: bold;
 }
 
 .character-selection {
