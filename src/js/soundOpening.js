@@ -1,18 +1,26 @@
-let btnPlay = document.getElementById('btnPlay');
-let audio = document.querySelector('audio');
-let statusAudio = document.getElementById('sound-status');
+let soundOn = document.getElementById("sound-on");
+let soundOff = document.getElementById("sound-off");
+let audioStatus = document.getElementById("sound-status");
+let audio = document.querySelector("audio");
 
-btnPlay.onclick = function() {
-    if(btnPlay.value === 'disable'){
-        audio.play();
-        btnPlay.value = 'enable';
-        statusAudio.innerHTML = 'On';
-        statusAudio.style.right = '6px';
-    }
-    else{
-        audio.pause();
-        btnPlay.value = 'disable';
-        statusAudio.innerHTML = 'Off';
-        statusAudio.style.right = '1px';
-    }
+function turnOnSound() {
+    soundOff.classList.remove("active");
+    soundOn.classList.add("active");
+    audioStatus.innerHTML = "ON";
+    audio.play();
 }
+
+function turnOffSound() {
+    soundOn.classList.remove("active");
+    soundOff.classList.add("active");
+    audioStatus.innerHTML = "OFF";
+    audio.pause();
+}
+
+soundOff.addEventListener("click", () => {
+    turnOnSound();
+});
+
+soundOn.addEventListener("click", () => {
+    turnOffSound()
+});
